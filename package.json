@@ -1,0 +1,33 @@
+{
+  "name": "nyxen-dark",
+  "displayName": "Nyxen",
+  "description": "A dark theme with carefully curated color palette and a comfortable and visually appealing workspace",
+  "version": "0.0.1",
+  "publisher": "AbhineshJha",
+  "engines": {
+    "vscode": "^1.96.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AbhineshJha/nyxen-theme"
+},
+"keywords": [
+    "theme",
+    "dark theme",
+    "nyxen",
+    "nyxen dark theme"
+],
+"icon": "assets/nyxen.png",
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Nyxen",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Nyxen-color-theme.json"
+      }
+    ]
+  }
+}
